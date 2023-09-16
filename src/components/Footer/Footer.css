@@ -1,0 +1,133 @@
+.footer-form {
+    background-image: url(/public/assets/footer-bg.png);
+    color: #FFFFFF;
+}
+
+.footer-heading {
+    font-family: Syne;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF80;
+    margin: 0;
+}
+
+.footer-content {
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF80;
+    margin: 0;
+}
+
+.footer-left {
+    width: 40%;
+}
+
+.footer-right {
+    width: 50%;
+}
+
+.footer-input {
+    background: transparent;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF80;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    text-transform: uppercase;
+}
+
+.footer-input:focus {
+    outline: none;
+}
+
+.big-text>h1 {
+    font-family: Syne;
+    font-size: 7rem;
+    font-weight: 800;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    line-height: 80%;
+}
+
+.send-button {
+    right: 50px;
+
+}
+
+.send-button>button {
+    width: 181px;
+    height: 181px;
+    border: 2px solid #F07E15;
+    border-radius: 100%;
+    background: transparent;
+    font-family: Work Sans;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F07E15;
+    transition: all 0.2s;
+}
+
+.send-button>button:hover {
+    color: white;
+    background: #F07E15;
+}
+
+.send-button>button:active {
+    transform: scale(0.9);
+    transition: all 0.2s;
+}
+
+.copyright-section {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    background: #000000;
+}
+
+.copyright-section p {
+    margin: 0;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-right {
+        width: 100%;
+    }
+
+    .footer-left p {
+        text-align: center;
+    }
+
+    .big-text>h1 {
+        font-size: 3rem;
+        line-height: 80%;
+    }
+
+    .big-text>h1:last-child {
+        margin-top: 0;
+    }
+
+    .send-button>button {
+        width: 100px;
+        height: 100px;
+        font-size: 1rem;
+    }
+}
